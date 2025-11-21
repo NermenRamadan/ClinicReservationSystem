@@ -28,10 +28,6 @@ It follows **Object-Oriented Programming (OOP)** principles and provides role-ba
 - Patients can rate and comment on clinics after their appointments.  
 - Clinics display average ratings based on patient feedback.  
 
-### Data Handling
-- Data is currently stored in memory (no permanent database).    
-- Clear structure for extending persistence later.
-
 ---
 
 ## Classes Structure
@@ -44,6 +40,7 @@ The system can be organized as follows:
 - **Clinic:** Stores clinic details and its schedule.  
 - **Schedule/ WorkingHoursRule.java:** Defines clinic working hours and available slots.  
 - **Appointment.java:** Connects a patient, clinic, and time slot.  
-- **Rating:** Manages patient feedback for clinics.  
+- **Rating:** Manages patient feedback for clinics.
+- **slots**
 
 ---
